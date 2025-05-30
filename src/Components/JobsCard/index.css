@@ -1,0 +1,74 @@
+body {
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+}
+
+.job-list {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.job-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  position: relative;
+}
+
+.job-top {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 0.8rem;
+}
+
+.job-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  object-fit: contain; /* Ensures the logo fits nicely */
+  flex-shrink: 0;
+  margin: 0px;
+}
+.link{
+  text-decoration: none;
+}
+
+.job-title {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.job-star {
+  font-size: 1.2rem;
+  color: gold;
+}
+
+.job-meta {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.95rem;
+  color: #f2c6dc;
+  margin-bottom: 1rem;
+}
+
+.job-description {
+  text-align: center;
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.job-salary {
+  font-weight: bold;
+  font-size: 1.1rem;
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
